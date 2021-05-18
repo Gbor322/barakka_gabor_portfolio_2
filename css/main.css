@@ -1,0 +1,126 @@
+body{
+	background-color: #FAF7E8;
+	font-family: 'Oswald', sans-serif;
+	font-size:18px;
+	font-weight: 400;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin:0;
+}
+
+
+.felsolec{
+	background-color: #FF9C29;
+	display: block;
+	padding: 2rem 2rem;
+	margin: 0;
+	justify-content: space-around;
+}
+
+.felsolec_b{
+	background-color: #FAF7E8;
+	display: block;
+	padding: 2rem 2rem;
+	margin: 0;
+	justify-content: space-around;
+}
+
+.block{
+	padding: 12px;
+	border: 2px solid black;
+	border-radius: 12px;
+	display: block;
+}
+.szoveg{
+	display: inline-block;
+	margin: 16px;
+	padding: 12px;
+	border: 2px solid black;
+	border-radius: 12px;
+	max-width: 50rem;
+}
+/*.szoveg_a{
+	display: inline-block;
+	margin: 16px;
+	padding: 12px;
+	border: 2px solid black;
+	border-radius: 12px;
+
+}*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    box-sizing: border-box;
+    margin: 4rem 05%;
+    grid-gap: 10%;
+}
+.kartya {
+    display: block;
+    background-color: #FF9C29;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size:24px;
+}
+.szoveg_a img{
+	max-width: 200rem;
+	display:block;
+	margin:0 auto;
+}
+.kep {
+   
+    display: block;
+    padding: 1rem;
+}
+.kep_a {
+    display: block;
+    padding: 1rem;
+    border: 2px solid black;
+	border-radius: 12px;
+}
+.kep_b {
+    display: block;
+    padding: 1rem;
+    border: 2px solid black;
+	border-radius: 12px;
+	background-color: #1CAAD5;
+}
+.gomb{
+	font-size: 30px;
+	background-color: #E59942;
+	color: #FAF7E8;
+	border:2px solid black;
+	display:inline-block;
+	padding:.5rem 1rem;
+	margin:0 .2rem;
+	border-radius: 2rem;
+	transition: .3s;
+	min-width: max-content; 
+}
+.gomb:hover{
+	cursor: pointer;
+	background-color: #D57F1C;
+
+}
+.flex1{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.flex_nyulik{
+	flex-grow: 1;
+	text-align: right; 
+}
+img{
+	max-width: 100%
+}
+a{
+    color: #FAF7E8;
+    text-decoration: none;
+}
+.kozep{
+	display: block;
+	text-align: center;
+	font-size: 32px;
+}
